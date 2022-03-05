@@ -1,0 +1,142 @@
+@media screen and (max-width: 400px) {
+    .header1_half3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 25px;
+    }
+    .father{
+        width: 399px;
+        overflow: hidden;
+    }
+    .header1_half2{
+        display: none;
+    }
+.header2_half1 img{
+    filter: drop-shadow(0px 11px 44px rgba(162, 220, 137, 0.7));
+}
+.body1{
+    flex-direction: column-reverse;
+}
+
+.header1{
+position: absolute;
+    background: 0px;
+    height: 100px;
+}
+.header2{
+  flex-wrap: wrap-reverse
+}
+.header2{
+    margin-top: 0;
+}
+
+.header2_img{
+    width: 398px;
+    height: 400px;
+
+}
+.header1_half3 img{
+    margin-bottom: 20px;
+}
+.header1_half1 p{
+    margin-top: 0;
+    margin-right: 10px;
+}
+
+.header2_1 {
+margin-bottom: 50px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: start;
+}
+.description:hover{
+    margin-bottom: 88px;
+
+}
+.description{
+
+    margin-bottom: 30px;
+}
+.description_one{
+    display: none;
+}
+.header_and_description{
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+}
+.f3{
+    margin-left: 25px;
+
+}
+.f{
+    width: 350px;
+    margin-left: 25px;
+}
+.body1_half1{
+    margin-left: 35px;
+
+}
+.body2{
+    flex-direction: column;
+
+}
+.list2{
+    margin-left: 15px;
+}
+.body2_image{
+   display: none;
+}
+.body3{
+    flex-direction: column;
+}
+.body3_description{
+    border: none;
+}
+.body3_img{
+    width: 350px;
+}
+.f3{
+    width: 244px;
+}
+.body3_list_of_characteristic{
+    column-gap: 25px;
+}
+.list4{
+    margin-left: 25px;
+}
+.body4{
+    flex-direction: column;
+}
+.active{
+    display: none;
+}
+.first{
+  margin-left: 12px;
+}
+.title1{
+    text-align: center;
+}
+.title{
+    width: 290px;
+}
+.title2{
+    flex-direction: column;
+    text-align: center;
+}
+.title3{
+    margin-top: 0;
+    font-weight: 800;
+    font-size: 21px;
+    line-height: 22px;
+}
+.firstp{
+    margin-bottom: 15px;
+
+}
+.footer{
+    column-gap: 0;
+    width: 399px;
+}
+}
