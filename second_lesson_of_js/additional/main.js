@@ -3,7 +3,7 @@
 // Інакше слід вивести на екран повідомлення про те, що це маленький масив, в якому менше 3-х елементів.
 
 let friends = ["Ivan", "Slavik", "Grisha", "Lera", "Ira"];
-if (friends.length > 3 ){
+if (friends.length >= 3 ){
     console.log('це великий масив')
 }else if (friends < 3) {
     console.log('це малий масив')
@@ -11,25 +11,31 @@ if (friends.length > 3 ){
 //===================================================ТЕРНАРКА==============================================//
 (prompt('введіть число') >= 3) ? console.log('це великий масив') : console.log('це малий масив')
 
+
 // //- Маємо 3 числа і між ним  нам потрібно знайти те що посередині.
 // // Знайти, яке з них є середнім (більше одного, але менше за інше). Перевірити, чи знаходиться перше число між двома іншими.
-let number1 = 1;
-let number2 = 2;
-let number3 = 3;
-if ( number1 < number2 && number2 < number3){
-   alert('number2 посередині')
-}
+
+// let number1 = 1;
+// let number2 = 2;
+// let number3 = 3;
+// if ( number1 < number2 && number2 < number3){
+//    alert('number2 посередині')
+// }
+
 
 //- Перепишіть конструкцію if з використанням умовного оператора '?':
-//let result;
-//if (a + b < 4) {
-    result = 'Мало';
-//} else {
-   // result = 'Багато';
-//}
 
-let result;
-let a = 1;
-let b = 1;
-(a + b < 4) ? result = 'мало' : result = 'багато';
-alert(result);
+// let result;
+// let a = 1;
+// let b = 2;
+// if (a + b < 4) {
+//     result = 'Мало';
+// } else {
+//    result = 'Багато';
+// }
+//
+// let result;
+// let a = 1;
+// let b = 1;
+// (a + b < 4) ? result = 'мало' : result = 'багато';
+// alert(result);

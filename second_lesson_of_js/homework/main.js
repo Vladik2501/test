@@ -30,7 +30,7 @@
 // - У нас є змінна test яка дорівнює true, виведіть 'Вірно', інакше виведіть 'Неправильно'.
 //     Перевірте роботу скрипта при test, що дорівнює true, false. Напишіть два варіанти скрипта - з коротким записом(тернаркою)
 
-let test = '';
+let test = true;
  if (test === true) {
      console.log('ВІРНО')
  } else {
@@ -41,7 +41,7 @@ let test = '';
 // - Якщо змінна a не дорівнює нулю, виведіть 'Вірно', інакше виведіть 'Невірно'. Перевірте  скрипт при a, що дорівнює 1, 0, -3
 
  let number = prompt('Введіть число 1, 0 ,-3');
- if (number !== 0){
+ if (number === 0){
      console.log('ВІРНО')
  } else {
      console.log('НЕВІРНО')
@@ -83,7 +83,7 @@ switch (Week) {
 
  let oficialName = prompt('Яка «офіційна» назва JavaScript?');
  if(oficialName === 'ECMAScript'){
-   alert('Правильно');
+     console.log('Правильно');
  } else{
-  alert('Неправильно, офіційна назва - ECMAScript!');
+     console.log('Неправильно, офіційна назва - ECMAScript!');
  }
