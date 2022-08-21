@@ -14,3 +14,13 @@ let arr = []
 // arr.shift(arr) - видаляє перший елемент
 // arr.splice() - видалення у заданому сигменті з можливістю добавлення іншого елемента в замін
 // arr.concat(1,3,4) -  добавляє в кінець вказаний масив
+
+// let arar = function (x) {
+//     console.log('hello',x)
+// }
+// // users.forEach(arar)
+// let filter = user.filter( function (value ){
+//     return value.status
+// })
+let map = users.map(value => value.age);
+console.log(map)
