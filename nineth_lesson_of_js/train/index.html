@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+  let nodelist = document.head.childNodes;
+
+  for (let nodeListElement of nodeList) {
+    if (nodeListElement.node.type === Node.TEXT_NODE) {
+      console.log(nodeListElement, 'text')
+    } else if (nodeListElement.node.type === Node.ELEMENT_NODE) {
+      console.log(nodeListElement, 'element')
+    } else if (nodeListElement.node.type === Node.COMMENT_NODE){
+      console.log(nodeListElement, 'comment')
+    }
+            }
+
+</script>
+</body>
+</html>
