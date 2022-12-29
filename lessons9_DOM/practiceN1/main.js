@@ -35,7 +35,7 @@
 // h2.innerText = 'title';
 // document.body.appendChild(h2)
 // let target = document.getElementsByClassName('target')[0]
-// target.appendChild(h2.cloneNode(true))
+// target.appendChild( cloneNode(true))
 //events
 // let buttons = document.getElementsByTagName('button')
 // let button = buttons[0]
@@ -50,10 +50,10 @@
 //     this.style.background = `rgb(${e.clientX},${e.clientY},${e.clientX})`
 //
 // }
-let form1 = document.forms.f1;
-
-form1.onsubmit = function (e) {
-    e.preventDefault()
-let name = this.name.value;
-    let age = this.age.value
-}
+// let form1 = document.forms.f1;
+//
+// form1.onsubmit = function (e) {
+//     e.preventDefault()
+// let name = this.name.value;
+//     let age = this.age.value
+// }
